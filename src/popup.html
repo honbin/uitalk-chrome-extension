@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<style>
+*{
+      margin: 0px;
+                padding: 0px;
+}
+body > h1{
+  width:300px;
+  text-align:center;
+  background: -webkit-gradient(
+                linear,  left top,  left bottom,  from(#06c),  to(#39f)
+            );
+  border-radius:4px;
+  margin:0px;
+  padding:1em;
+  color:white;
+  text-shadow: 3px 3px 3px black;
+  line-height:1.4;
+}
+</style>
+<h1>Chrome extensions</h1>
+<script>
+document.querySelector('h1').onclick=function(){
+  this.innerText = 'Chrome拡張入門';
+}
+</script>
+</html>
